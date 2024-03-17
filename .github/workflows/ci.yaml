@@ -6,7 +6,7 @@ env:
   DB_PASSWORD: db-q5n2g
 jobs:
   run_code_checks:
-    run_on: ubuntu-latest
+    runs_on: ubuntu-latest
     steps:
       - name: Set up MySQL
         run: |
