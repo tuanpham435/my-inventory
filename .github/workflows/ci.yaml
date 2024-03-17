@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Repo Code
         uses: actions/checkout@v2
       - name: Set Up Go
-        uses: actions/setup-go@vs
+        uses: actions/setup-go@v2
         with:
           go-version: 1.19
       - name: Run linting
