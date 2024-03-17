@@ -4,7 +4,7 @@ env:
   DB_NAME: test
   DB_USER: root
   DB_PASSWORD: db-q5n2g
-job:
+jobs:
   run_code_checks:
     run_on: ubuntu-latest
     steps:
